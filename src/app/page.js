@@ -33,6 +33,7 @@ export default function Home() {
           <div className=" relative w-full aspect-[1.8]">
             <Image
               src="/circuito.png"
+              alt="imagem de um circuito risc v monociclo"
               fill
               objectFit="contain"
             />
@@ -67,10 +68,10 @@ export default function Home() {
                 <div>
                   <h3 className=" font-bold">MEMÓRIA:</h3>
                   <p>
-                    Imagine a memória como um grande armário cheio de gavetas. Cada gaveta guarda uma informação importante, seja uma instrução ou um dado. Quando o computador precisa de algo, ele "abre" a gaveta correta para pegar o que precisa.
+                    Imagine a memória como um grande armário cheio de gavetas. Cada gaveta guarda uma informação importante, seja uma instrução ou um dado. Quando o computador precisa de algo, ele &#34;abre&#34; a gaveta correta para pegar o que precisa.
                   </p>
                   <ul className="list-disc">
-                    <li className=" ml-10"><span className=" font-semibold">MEMÓRIA DE INSTRUÇÕES:</span> Esta parte do armário guarda o "manual de instruções" que o computador segue. Cada instrução diz ao computador o que fazer em seguida.</li>
+                    <li className=" ml-10"><span className=" font-semibold">MEMÓRIA DE INSTRUÇÕES:</span> Esta parte do armário guarda o &#34;manual de instruções&#34; que o computador segue. Cada instrução diz ao computador o que fazer em seguida.</li>
                     <li className=" ml-10"><span className=" font-semibold">MEMÓRIA DE DADOS:</span> Outra parte do armário, mas esta guarda os ingredientes (dados) que o computador usa para realizar suas tarefas. Quando o computador precisa de um valor específico, ele o busca aqui.</li>
                   </ul>
                 </div>
@@ -83,7 +84,7 @@ export default function Home() {
                 <div>
                   <h3 className=" font-bold">ULA (Unidade Lógica e Aritmética):</h3>
                   <p>
-                    A ULA é a "calculadora" do computador. É ela que faz todas as contas, como somar ou subtrair, e também faz comparações, como verificar qual número é maior ou se dois números são iguais. Se o computador precisa fazer qualquer tipo de cálculo, ele pede ajuda à ULA.
+                    A ULA é a &#34;calculadora&#34; do computador. É ela que faz todas as contas, como somar ou subtrair, e também faz comparações, como verificar qual número é maior ou se dois números são iguais. Se o computador precisa fazer qualquer tipo de cálculo, ele pede ajuda à ULA.
                   </p>
                 </div>
               </>
@@ -95,7 +96,7 @@ export default function Home() {
             }
             { buttonSelected == 2 && 
               <p>
-                Agora que o computador tem a instrução, ele precisa entender o que deve fazer. Nesta etapa, a instrução é "decodificada" – ou seja, o computador analisa e interpreta a instrução para determinar as ações necessárias. É como planejar as etapas de uma tarefa complexa. A decodificação revela se o computador precisa acessar a memória, o banco de registradores, ou utilizar a ULA (Unidade Lógica e Aritmética) para realizar operações como soma ou subtração. Com essa análise, a unidade de controle gera sinais que preparam os componentes do computador para a próxima fase.
+                Agora que o computador tem a instrução, ele precisa entender o que deve fazer. Nesta etapa, a instrução é &#34;decodificada&#34; - ou seja, o computador analisa e interpreta a instrução para determinar as ações necessárias. É como planejar as etapas de uma tarefa complexa. A decodificação revela se o computador precisa acessar a memória, o banco de registradores, ou utilizar a ULA (Unidade Lógica e Aritmética) para realizar operações como soma ou subtração. Com essa análise, a unidade de controle gera sinais que preparam os componentes do computador para a próxima fase.
               </p>
             }
             { buttonSelected == 3 && 
