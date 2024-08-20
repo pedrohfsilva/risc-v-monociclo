@@ -37,22 +37,22 @@ export default function Home() {
               fill
               objectFit="contain"
             />
-            <button onClick={() => setButtonSelected(1)} className={`bg-blue-600/15 absolute w-[34%] h-[80%] top-[10%] left-[2%] border-blue-600 ${buttonSelected == 1 && 'border-4'}`}></button>
-            <button onClick={() => setButtonSelected(2)} className={`bg-green-600/15 absolute w-[25%] h-[42%] top-[46%] left-[37%] border-green-600 ${buttonSelected == 2 && 'border-4'}`}></button>
-            <button onClick={() => setButtonSelected(3)} className={`bg-red-600/15 absolute w-[12%] h-[39%] top-[46%] left-[63%] border-red-600 ${buttonSelected == 3 && 'border-4'}`}></button>
-            <button onClick={() => setButtonSelected(3)} className={`bg-red-600/15 absolute w-[16%] h-[31%] top-[8%] left-[40%] border-red-600 ${buttonSelected == 3 && 'border-4'}`}></button>
-            <button onClick={() => setButtonSelected(4)} className={`bg-yellow-600/15 absolute w-[20%] h-[43%] top-[54%] left-[75.5%] border-yellow-600 ${buttonSelected == 4 && 'border-4'}`}></button>
-            <button onClick={() => setButtonSelected(5)} className={`bg-purple-600/15 absolute w-[60%] h-[5.5%] top-[40%] left-[37.5%] border-purple-600 ${buttonSelected == 5 && 'border-4'}`}></button>
+            <button onClick={() => setButtonSelected(1)} className={`bg-blue-600/20 absolute w-[34%] h-[80%] top-[10%] left-[2%] border-blue-600 ${buttonSelected == 1 && 'border-4'}`}></button>
+            <button onClick={() => setButtonSelected(2)} className={`bg-green-600/20 absolute w-[25%] h-[42%] top-[46%] left-[37%] border-green-600 ${buttonSelected == 2 && 'border-4'}`}></button>
+            <button onClick={() => setButtonSelected(3)} className={`bg-red-600/20 absolute w-[12%] h-[39%] top-[46%] left-[63%] border-red-600 ${buttonSelected == 3 && 'border-4'}`}></button>
+            <button onClick={() => setButtonSelected(3)} className={`bg-red-600/20 absolute w-[16%] h-[31%] top-[8%] left-[40%] border-red-600 ${buttonSelected == 3 && 'border-4'}`}></button>
+            <button onClick={() => setButtonSelected(4)} className={`bg-yellow-600/20 absolute w-[20%] h-[43%] top-[54%] left-[75.5%] border-yellow-600 ${buttonSelected == 4 && 'border-4'}`}></button>
+            <button onClick={() => setButtonSelected(5)} className={`bg-purple-600/20 absolute w-[60%] h-[5.5%] top-[40%] left-[37.5%] border-purple-600 ${buttonSelected == 5 && 'border-4'}`}></button>
           </div>
           <button onClick={() => setButtonSelected(0)} className="bg-[#3197C2BB] text-white text-lg py-2 px-4 rounded-full">Sobre os componentes</button>
         </div>
         <div className=" bg-white flex-1 rounded-lg p-5 md:p-10">
           <div className="flex w-full justify-between items-start mb-5 gap-5">
-            <button onClick={handlePrevious} className="bg-[#3197C2BB] w-12 h-12 flex justify-center items-center rounded-full text-4xl">
+            <button onClick={handlePrevious} className="bg-[#3197C2BB] flex-shrink-0 w-12 h-12 flex justify-center items-center rounded-full text-4xl">
               <IconArrowLeftShort />
             </button>
             <h2 className=" text-slate-800 text-xl md:text-2xl font-bold text-center">{stepNames[buttonSelected]}</h2>
-            <button onClick={handleNext} className="bg-[#3EC231BB] w-12 h-12 flex justify-center items-center rounded-full text-4xl">
+            <button onClick={handleNext} className="bg-[#3EC231BB] flex-shrink-0 w-12 h-12 flex justify-center items-center rounded-full text-4xl">
               <IconArrowRightShort />
             </button>
           </div>
