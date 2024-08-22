@@ -27,7 +27,13 @@ export default function Home() {
       <div className=" flex-col md:flex-row w-full gap-5 md:gap-10 flex max-w-[1600px]">
         <div className=" bg-white flex-1 rounded-lg p-5 md:p-10 text-lg md:text-xl text-slate-800 flex flex-col gap-5 text-justify leading-7 md:leading-8">
           <p>
-            Esta é uma representação visual simplificada do funcionamento de uma arquitetura RISC-V monociclo. Essa arquitetura é um tipo de implementação de processador onde todas as instruções são executadas em exatamente um ciclo completo. Isso significa que, em cada ciclo, o processador busca, decodifica e executa uma instrução completa.
+            Uma arquitetura RISC-V monociclo é um tipo de processador, que pode ser entendido como o &#34cérebro&#34 do computador, que segue um conjunto básico de instruções para realizar tarefas. 
+          </p>
+          <p>
+            Aqui está uma representação visual simplificada do funcionamento de uma arquitetura RISC-V monociclo. Essa arquitetura, que é como se foi pensado o processador, é um tipo de implementação onde todas as instruções são executadas em exatamente um ciclo completo. Isso significa que, em cada ciclo, o processador busca, decodifica e executa uma instrução completa.
+          </p>
+          <p>
+            Isso quer dizer que, toda vez que o processador recebe uma tarefa para fazer, como somar dois números ou acessar uma informação na memória, ele faz tudo isso de uma vez só, em um único movimento. É como se, em vez de fazer várias etapas separadas para completar uma tarefa, ele conseguisse realizar tudo de forma rápida e eficiente em um só passo. Isso torna o processador mais simples e, muitas vezes, mais rápido em realizar tarefas básicas.
           </p>
           <p>Clique em uma das etapas do circuito para obter detalhes sobre os processos da etapa.</p>
           <div className=" relative w-full aspect-[1.8]">
