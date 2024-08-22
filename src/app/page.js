@@ -27,9 +27,9 @@ export default function Home() {
       <div className=" flex-col md:flex-row w-full gap-5 md:gap-10 flex max-w-[1600px]">
         <div className=" bg-white flex-1 rounded-lg p-5 md:p-10 text-lg md:text-xl text-slate-800 flex flex-col gap-5 text-justify leading-7 md:leading-8">
           <p>
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh vivamus vulputate massa urna euismod sollicitudin odio vivamus nisl. Curabitur quisque platea volutpat a ultricies laoreet. Natoque rhoncus placerat tincidunt; magna ultrices ultricies. Felis dignissim nulla tellus senectus quisque auctor phasellus sociosqu. Natoque nascetur ad, tincidunt fusce egestas quam. Nulla felis nisl senectus fringilla magnis est duis lacinia. Tempus volutpat bibendum aptent libero felis gravida.
+            Esta é uma representação visual simplificada do funcionamento de uma arquitetura RISC-V monociclo. Essa arquitetura é um tipo de implementação de processador onde todas as instruções são executadas em exatamente um ciclo completo. Isso significa que, em cada ciclo, o processador busca, decodifica e executa uma instrução completa.
           </p>
-          <p>Clique em uma das etapas do circuito para saber sobre ela.</p>
+          <p>Clique em uma das etapas do circuito para obter detalhes sobre os processos da etapa.</p>
           <div className=" relative w-full aspect-[1.8]">
             <Image
               src="/circuito.png"
