@@ -27,7 +27,7 @@ export default function Home() {
       <div className=" flex-col md:flex-row w-full gap-5 md:gap-10 flex max-w-[1600px]">
         <div className=" bg-white flex-1 rounded-lg p-5 md:p-10 text-lg md:text-xl text-slate-800 flex flex-col gap-5 text-justify leading-7 md:leading-8">
           <p>
-            Uma arquitetura RISC-V monociclo é um tipo de processador, que pode ser entendido como o &#34cérebro&#34 do computador, que segue um conjunto básico de instruções para realizar tarefas. 
+            Uma arquitetura RISC-V monociclo é um tipo de processador, que pode ser entendido como o &quot;cérebro&quot; do computador, que segue um conjunto básico de instruções para realizar tarefas.
           </p>
           <p>
             Aqui está uma representação visual simplificada do funcionamento de uma arquitetura RISC-V monociclo. Essa arquitetura, que é como se foi pensado o processador, é um tipo de implementação onde todas as instruções são executadas em exatamente um ciclo completo. Isso significa que, em cada ciclo, o processador busca, decodifica e executa uma instrução completa.
@@ -35,7 +35,7 @@ export default function Home() {
           <p>
             Isso quer dizer que, toda vez que o processador recebe uma tarefa para fazer, como somar dois números ou acessar uma informação na memória, ele faz tudo isso de uma vez só, em um único movimento. É como se, em vez de fazer várias etapas separadas para completar uma tarefa, ele conseguisse realizar tudo de forma rápida e eficiente em um só passo. Isso torna o processador mais simples e, muitas vezes, mais rápido em realizar tarefas básicas.
           </p>
-          <p>Clique em uma das etapas do circuito para obter detalhes sobre os processos da etapa.</p>
+          <p>Clique em uma das etapas do circuito RISC-V monociclo para obter detalhes sobre os processos da etapa.</p>
           <div className=" relative w-full aspect-[1.8]">
             <Image
               src="/circuito.png"
@@ -77,7 +77,7 @@ export default function Home() {
                     Imagine a memória como um grande armário cheio de gavetas. Cada gaveta guarda uma informação importante, seja uma instrução ou um dado. Quando o computador precisa de algo, ele &#34;abre&#34; a gaveta correta para pegar o que precisa.
                   </p>
                   <ul className="list-disc">
-                    <li className=" ml-10"><span className=" font-semibold">MEMÓRIA DE INSTRUÇÕES:</span> Esta parte do armário guarda o &#34;manual de instruções&#34; que o computador segue. Cada instrução diz ao computador o que fazer em seguida.</li>
+                    <li className=" ml-10"><span className=" font-semibold">MEMÓRIA DE INSTRUÇÕES:</span> Esta parte do armário guarda o &quot;manual de instruções&#34; que o computador segue. Cada instrução diz ao computador o que fazer em seguida.</li>
                     <li className=" ml-10"><span className=" font-semibold">MEMÓRIA DE DADOS:</span> Outra parte do armário, mas esta guarda os ingredientes (dados) que o computador usa para realizar suas tarefas. Quando o computador precisa de um valor específico, ele o busca aqui.</li>
                   </ul>
                 </div>
